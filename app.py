@@ -30,7 +30,7 @@ app.add_middleware(
 SUPPORTED_EXT = {".mp3", ".wav", ".m4a", ".ogg", ".aac", ".flac", ".webm", ".mp4", ".mkv"}
 
 # ✅ Only from environment
-_OPENAI_KEY = os.environ.get("OPENAI_API_KEY4")
+_OPENAI_KEY = os.environ.get("UI_OPENAI_KEY")
 
 
 def get_openai_key() -> Optional[str]:
