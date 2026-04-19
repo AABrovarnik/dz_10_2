@@ -12,7 +12,7 @@ from openai import OpenAI
 # ================================
 # API KEY (ИЗ ENV)
 # ================================
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = os.getenv("OPENAI_API_KEY4")
 
 client = None
 if api_key:
